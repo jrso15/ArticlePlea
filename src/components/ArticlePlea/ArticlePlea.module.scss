@@ -1,0 +1,108 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.articlePleaContainer {
+  width: 100%;
+  background-color: #18213a;
+  padding: 1.5rem;
+  font-family: "Lora", serif;
+  .headerWrapper {
+    display: flex;
+    flex-direction: column;
+    .image {
+      width: 30%;
+      margin: auto;
+      img {
+        width: 100%;
+      }
+    }
+    .titlePlea {
+      font-size: 1.5rem;
+      color: #fff;
+      font-family: "Lora", serif;
+    }
+  }
+  .content {
+    color: #fff;
+    font-family: "Lora", serif;
+    font-size: 1.1rem;
+  }
+  .buttonWrapper {
+    width: 100%;
+    margin: 50px 0 0;
+    .btnPlus {
+      padding: 5px 70px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      border: 1px solid #f04f3c;
+      position: relative;
+      background-color: #f04f3c;
+      border-radius: 50px;
+      color: #fff;
+
+      text-decoration: none;
+      font-size: 1.3rem;
+      &:before {
+        content: "";
+        display: block;
+        position: absolute;
+        z-index: 9999;
+        top: 1px;
+        left: 1px;
+        right: 1px;
+        bottom: 1px;
+        border: 2px solid #18213a;
+        border-radius: 50px;
+      }
+      p {
+        margin: 0;
+      }
+      .label {
+        font-size: 1.3rem;
+        font-weight: bold;
+      }
+      .subLabel {
+        font-size: 0.8rem;
+        font-weight: bold;
+      }
+    }
+    .donation {
+      margin: 30px 0 0;
+      font-size: 1.1rem;
+      color: #fff;
+
+      a {
+        color: #fff;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .articlePleaContainer {
+    .headerWrapper {
+      flex-direction: row;
+      .image {
+        width: 15%;
+      }
+      .titlePlea {
+        align-self: center;
+        font-size: 1.8rem;
+        margin-left: 20px;
+      }
+    }
+  }
+}
