@@ -14,7 +14,7 @@
       }
     }
     .titlePlea {
-      font-size: 1.5rem;
+      font-size: 1.5em;
       color: #000;
       font-family: "Lora", serif;
     }
@@ -22,7 +22,8 @@
   .content {
     color: #000;
     font-family: "Lora", serif;
-    font-size: 1.1rem;
+    font-size: 1.1em;
+    line-height: 1.5;
   }
   .buttonWrapper {
     width: 100%;
@@ -37,9 +38,8 @@
       background-color: #f04f3c;
       border-radius: 50px;
       color: #fff;
-
       text-decoration: none;
-      font-size: 1.3rem;
+      font-size: 1em;
       &:before {
         content: "";
         display: block;
@@ -56,17 +56,18 @@
         margin: 0;
       }
       .label {
-        font-size: 1.3rem;
+        font-size: 1.3em;
         font-weight: bold;
       }
       .subLabel {
-        font-size: 0.8rem;
+        font-size: 0.7em;
         font-weight: bold;
+        margin-top: 2px;
       }
     }
     .donation {
       margin: 30px 0 0;
-      font-size: 1.1rem;
+      font-size: 1.1em;
       color: #000;
 
       a {
@@ -85,9 +86,15 @@
       }
       .titlePlea {
         align-self: center;
-        font-size: 1.8rem;
+        font-size: 1.9em;
         margin-left: 20px;
       }
+    }
+    .content {
+      font-size: 1.2em;
+    }
+    .donation {
+      font-size: 1.2em;
     }
   }
 }
