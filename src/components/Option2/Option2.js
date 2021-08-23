@@ -1,5 +1,5 @@
 import React from "react";
-import ArticlePlea from "../ArticlePlea/ArticlePlea";
+import ArticlePlea from "../AbstractArticlePlea/AbstractArticlePlea";
 import image from "./glenda.png";
 import styles from "./Option2.module.scss";
 

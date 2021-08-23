@@ -1,6 +1,6 @@
 import React from "react";
 // import styles from "./ArticlePlea.module.scss";
-import ArticlePlea from "../ArticlePlea/ArticlePlea";
+import ArticlePlea from "../AbstractArticlePlea/AbstractArticlePlea";
 import image from "./glenda.png";
 import styles from "./Option1.module.scss";
 
