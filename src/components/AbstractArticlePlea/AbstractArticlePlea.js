@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./ArticlePlea.module.scss";
+import "./AbstractArticlePlea.module.scss";
 
 const ArticlePlea = ({
   image,
