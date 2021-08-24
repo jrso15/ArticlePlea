@@ -32,7 +32,7 @@
     width: 100%;
     margin: 50px 0 0;
     .btnPlus {
-      padding: 5px 70px;
+      padding: 5px 50px;
       text-align: center;
       text-decoration: none;
       display: inline-block;
@@ -99,6 +99,11 @@
     }
     .content {
       font-size: 1.2em;
+    }
+    .buttonWrapper {
+      .btnPlus {
+        padding: 5px 70px;
+      }
     }
     .donation {
       font-size: 1.2em;
