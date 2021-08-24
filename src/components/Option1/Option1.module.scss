@@ -39,11 +39,8 @@
       border: 1px solid #f04f3c;
       position: relative;
       background-color: #f04f3c;
-      border-radius: 50px;
       color: #fff;
-
       text-decoration: none;
-      // font-size: 1em;
       &:before {
         content: "";
         display: block;
@@ -54,7 +51,6 @@
         right: 1px;
         bottom: 1px;
         border: 2px solid #18213a;
-        border-radius: 50px;
       }
       p {
         margin: 0;
