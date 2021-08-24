@@ -3,12 +3,12 @@ import ReactDOM from "react-dom";
 import Option1 from "./components/Option1/Option1";
 import Option2 from "./components/Option2/Option2";
 
-const container = document.createElement("div");
+let container = document.createElement("div");
+div.classList.add("Row-sc-1t49lz9-0 eGnIar");
+
 document
   .querySelector(".ArticleWrapper__ArticleBodyWrapper-sc-36pn73-0")
   .appendChild(container);
-
-// document.body.appendChild(container);
 
 global.ArticlePlea = class ArticlePlea {
   constructor(config) {
