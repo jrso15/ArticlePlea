@@ -1,8 +1,11 @@
 .articlePleaContainer {
-  width: 100%;
   padding: 1.5rem;
   font-family: "Lora", serif;
   background-color: white;
+  grid-column-end: span 8;
+  grid-row-end: span 1;
+  grid-column-start: 2;
+  margin-top: 30px;
   .headerWrapper {
     display: flex;
     flex-direction: column;
@@ -79,6 +82,9 @@
 
 @media only screen and (min-width: 768px) {
   .articlePleaContainer {
+    grid-column-end: span 6;
+    grid-row-end: span 1;
+    grid-column-start: 3;
     .headerWrapper {
       flex-direction: row;
       .image {
