@@ -12,6 +12,7 @@
     .image {
       width: 30%;
       margin: auto;
+      display: none;
       img {
         width: 100%;
       }
@@ -93,7 +94,6 @@
       .titlePlea {
         align-self: center;
         font-size: 1.9em;
-        margin-left: 20px;
       }
     }
     .content {
@@ -101,6 +101,27 @@
     }
     .donation {
       font-size: 1.2em;
+    }
+  }
+}
+
+@media only screen and (min-width: 1180px) {
+  .articlePleaContainer {
+    grid-column-end: span 7;
+    grid-row-end: span 1;
+    grid-column-start: 4;
+    .headerWrapper {
+      display: flex;
+      flex-direction: column;
+      .image {
+        width: 20%;
+      }
+      .titlePlea {
+        font-size: 1.5em;
+      }
+      .content {
+        font-size: 1.1em;
+      }
     }
   }
 }
