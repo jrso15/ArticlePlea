@@ -11,6 +11,7 @@ const ArticlePlea = ({
   btnLabel,
   btnSubLabel,
   optionStyle,
+  donation,
   rapplerPlusLogo,
 }) => {
   return (
@@ -41,7 +42,7 @@ const ArticlePlea = ({
 
         <div className={optionStyle.donation}>
           <p>
-            Or make a one off donation{" "}
+            {donation}
             <a href="https://r3.rappler.com/plus/payment?campaign=3">here</a>.
           </p>
         </div>
