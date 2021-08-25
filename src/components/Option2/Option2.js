@@ -12,6 +12,7 @@ const Option2 = () => {
       paragraph3="Rappler is powered by its readers. It is independent and fearless because it’s supported and inspired by you"
       btnLabel="Join Rappler+"
       btnSubLabel="for P3500 / $75 a year"
+      donation="Join Rappler+ and pushback on disinformation, propaganda, and lies or make a one off donation"
       rapplerPlusLogo={logo}
       optionStyle={styles}
     />

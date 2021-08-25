@@ -23,6 +23,7 @@ const Option1 = () => {
       paragraph4="The reason we’ve been able to stay the course is readers like you who
       believe that public good is best served when power is checked by those
       who speak truth to it."
+      donation="Help us continue our work by joining Rappler+ or making a one off donation "
       rapplerPlusLogo={logo}
       btnLabel="Join Rappler+"
       btnSubLabel="for P3500 / $75 a year"
