@@ -2,6 +2,7 @@ import React from "react";
 // import styles from "./ArticlePlea.module.scss";
 import ArticlePlea from "../AbstractArticlePlea/AbstractArticlePlea";
 import image from "./glenda.png";
+import logo from "./white_1.png";
 import styles from "./Option1.module.scss";
 
 const Option1 = () => {
@@ -22,6 +23,7 @@ const Option1 = () => {
       paragraph4="The reason we’ve been able to stay the course is readers like you who
       believe that public good is best served when power is checked by those
       who speak truth to it."
+      rapplerPlusLogo={logo}
       btnLabel="Join Rappler+"
       btnSubLabel="for P3500 / $75 a year"
       optionStyle={styles}

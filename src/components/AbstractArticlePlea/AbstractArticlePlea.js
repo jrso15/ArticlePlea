@@ -11,6 +11,7 @@ const ArticlePlea = ({
   btnLabel,
   btnSubLabel,
   optionStyle,
+  rapplerPlusLogo,
 }) => {
   return (
     <div className={optionStyle.articlePleaContainer}>
@@ -29,6 +30,24 @@ const ArticlePlea = ({
 
       <p className={optionStyle.content}>{paragraph4}</p>
       <div className={optionStyle.buttonWrapper}>
+        {/* <a
+          className={optionStyle.btnPlus}
+          href="https://www.rappler.com/about-plus-membership-program"
+          target="_blank"
+        >
+          <p className={optionStyle.label}>{btnLabel}</p>
+          <p className={optionStyle.subLabel}>{btnSubLabel}</p>
+        </a> */}
+
+        <div className={optionStyle.donation}>
+          <p>
+            Or make a one off donation{" "}
+            <a href="https://r3.rappler.com/plus/payment?campaign=3">here</a>.
+          </p>
+        </div>
+      </div>
+      <div className={optionStyle.buttonHanging}>
+        <img src={rapplerPlusLogo} className={optionStyle.logo} />
         <a
           className={optionStyle.btnPlus}
           href="https://www.rappler.com/about-plus-membership-program"
@@ -37,13 +56,6 @@ const ArticlePlea = ({
           <p className={optionStyle.label}>{btnLabel}</p>
           <p className={optionStyle.subLabel}>{btnSubLabel}</p>
         </a>
-
-        <div className={optionStyle.donation}>
-          <p>
-            Or make a one off donation{" "}
-            <a href="https://r3.rappler.com/plus/payment?campaign=3">here</a>.
-          </p>
-        </div>
       </div>
     </div>
   );
