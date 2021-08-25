@@ -43,17 +43,17 @@
       color: #fff;
       text-decoration: none;
       font-size: 1em;
-      &:before {
-        content: "";
-        display: block;
-        position: absolute;
-        z-index: 9999;
-        top: 1px;
-        left: 1px;
-        right: 1px;
-        bottom: 1px;
-        border: 2px solid #fff;
-      }
+      // &:before {
+      //   content: "";
+      //   display: block;
+      //   position: absolute;
+      //   z-index: 9999;
+      //   top: 1px;
+      //   left: 1px;
+      //   right: 1px;
+      //   bottom: 1px;
+      //   border: 2px solid #fff;
+      // }
       p {
         margin: 0;
       }
