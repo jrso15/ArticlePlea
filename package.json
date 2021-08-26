@@ -20,8 +20,9 @@
   "homepage": "https://github.com/jrso15/ArticlePlea#readme",
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react": "^16.0.0-0",
+    "react-dom": "^16.0.0-0",
+    "react-html-parser": "^2.0.2"
   },
   "devDependencies": {
     "@babel/cli": "^7.14.8",
