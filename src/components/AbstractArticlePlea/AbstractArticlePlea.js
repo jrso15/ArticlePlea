@@ -13,46 +13,43 @@ const ArticlePlea = ({
   optionStyle,
   donation,
   rapplerPlusLogo,
+  donationLink,
+  rapplerPlusLink,
 }) => {
+  console.log(rapplerPlusLink);
   return (
     <div className={optionStyle.articlePleaContainer}>
-      <div className={optionStyle.headerWrapper}>
-        <div className={optionStyle.image}>
-          <img src={image} />
+      <div className={optionStyle.contentWrapper}>
+        <div className={optionStyle.headerWrapper}>
+          <div className={optionStyle.image}>
+            <img src={image} />
+          </div>
+          <h3 className={optionStyle.titlePlea}>{title}</h3>
         </div>
-        <h3 className={optionStyle.titlePlea}>{title}</h3>
-      </div>
 
-      <p className={optionStyle.content}>{paragraph1}</p>
+        <p className={optionStyle.content}>{paragraph1}</p>
 
-      <p className={optionStyle.content}>{paragraph2}</p>
+        <p className={optionStyle.content}>{paragraph2}</p>
 
-      <p className={optionStyle.content}>{paragraph3}</p>
+        <p className={optionStyle.content}>{paragraph3}</p>
 
-      <p className={optionStyle.content}>{paragraph4}</p>
-      <div className={optionStyle.buttonWrapper}>
-        {/* <a
-          className={optionStyle.btnPlus}
-          href="https://www.rappler.com/about-plus-membership-program"
-          target="_blank"
-        >
-          <p className={optionStyle.label}>{btnLabel}</p>
-          <p className={optionStyle.subLabel}>{btnSubLabel}</p>
-        </a> */}
-
-        <div className={optionStyle.donation}>
-          <p>
-            {donation}
-            <a href="https://r3.rappler.com/plus/payment?campaign=3">here</a>.
-          </p>
+        <p className={optionStyle.content}>{paragraph4}</p>
+        <div className={optionStyle.buttonWrapper}>
+          <div className={optionStyle.donation}>
+            <p>
+              {donation}
+              <a href="" onClick = { () => donationLink() }>here</a>.
+            </p>
+          </div>
         </div>
       </div>
+
+      <img src={rapplerPlusLogo} className={optionStyle.logo} />
+
       <div className={optionStyle.buttonHanging}>
-        <img src={rapplerPlusLogo} className={optionStyle.logo} />
         <a
           className={optionStyle.btnPlus}
-          href="https://www.rappler.com/about-plus-membership-program"
-          target="_blank"
+          onClick = { () => rapplerPlusLink() }
         >
           <p className={optionStyle.label}>{btnLabel}</p>
           <p className={optionStyle.subLabel}>{btnSubLabel}</p>
