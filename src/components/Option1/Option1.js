@@ -2,10 +2,31 @@ import React from "react";
 // import styles from "./ArticlePlea.module.scss";
 import ArticlePlea from "../AbstractArticlePlea/AbstractArticlePlea";
 import image from "./glenda.png";
-import logo from "./white_1.png";
+import logo from "./mixed.png";
 import styles from "./Option1.module.scss";
 
 const Option1 = () => {
+  const handleLink = () => {
+    console.log("test");
+    window.deep.event({ "event.type": "article_plea_option1_plus_click" });
+    window.dataLayer.push({ event: "article_plea_option1_plus_click" });
+
+    window.open(
+      "https://www.rappler.com/about-plus-membership-program?utm_source=rappler_plus&utm_medium=article_plea&utm_campaign=option1_plus"
+    );
+  };
+
+  const handleDonationLink = () => {
+    window.deep.event({
+      "event.type": "article_plea_option1_crowdfunding_click",
+    });
+    window.dataLayer.push({ event: "article_plea_option1_crowdfunding_click" });
+
+    window.open(
+      "https://r3.rappler.com/plus/payment?campaign=3&utm_source=rappler_plus&utm_medium=article_plea&utm_campaign=option1_crowdfunding"
+    );
+  };
+
   return (
     <ArticlePlea
       image={image}
@@ -14,7 +35,7 @@ const Option1 = () => {
       were battling nearly a dozen cases against the company and its leaders
       even as our journalists were attacked online with threats and hate
       messages."
-      paragraph2="In our darkest hour, the very first members gave us hope. They not only
+      paragraph2="In our darkest hours, the very first members gave us hope. They not only
       showed support through an annual fee that helped us tide things over,
       they also boosted our morale and assured us that we were not alone in
       this battle for an independent media."
@@ -24,6 +45,8 @@ const Option1 = () => {
       believe that public good is best served when power is checked by those
       who speak truth to it."
       donation="Help us continue our work by joining Rappler+ or making a one off donation "
+      rapplerPlusLink={handleLink}
+      donationLink={handleDonationLink}
       rapplerPlusLogo={logo}
       btnLabel="Join Rappler+"
       btnSubLabel="for P3500 / $75 a year"
