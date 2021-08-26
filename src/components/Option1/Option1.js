@@ -1,5 +1,5 @@
 import React from "react";
-// import styles from "./ArticlePlea.module.scss";
+import ReactHtmlParser from "react-html-parser";
 import ArticlePlea from "../AbstractArticlePlea/AbstractArticlePlea";
 import image from "./glenda.png";
 import logo from "./mixed.png";
@@ -26,6 +26,8 @@ const Option1 = () => {
       "https://r3.rappler.com/plus/payment?campaign=3&utm_source=rappler_plus&utm_medium=article_plea&utm_campaign=option1_crowdfunding"
     );
   };
+  const boldText =
+    "<strong>For what is journalism without its public? What is storytelling without a community that is inspired or moved to action by it?</strong>";
 
   return (
     <ArticlePlea
@@ -39,8 +41,7 @@ const Option1 = () => {
       showed support through an annual fee that helped us tide things over,
       they also boosted our morale and assured us that we were not alone in
       this battle for an independent media."
-      paragraph3="For what is journalism without its public? What is storytelling without
-      a community that is inspired or moved to action by it?"
+      paragraph3={ReactHtmlParser(boldText)}
       paragraph4="The reason we’ve been able to stay the course is readers like you who
       believe that public good is best served when power is checked by those
       who speak truth to it."
