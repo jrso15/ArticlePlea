@@ -5,22 +5,22 @@ import styles from "./Option2.module.scss";
 
 const Option2 = () => {
   const handleLink = () => {
-    window.deep.event({ "event.type": "article_plea_option1_plus_click" });
-    window.dataLayer.push({ event: "article_plea_option1_plus_click" });
+    window.deep.event({ "event.type": "article_plea_option2_plus_click" });
+    window.dataLayer.push({ event: "article_plea_option2_plus_click" });
 
     window.open(
-      "https://www.rappler.com/about-plus-membership-program?utm_source=rappler_plus&utm_medium=article_plea&utm_campaign=option1_plus"
+      "https://www.rappler.com/about-plus-membership-program?utm_source=rappler_plus&utm_medium=article_plea&utm_campaign=option2_plus"
     );
   };
 
   const handleDonationLink = () => {
     window.deep.event({
-      "event.type": "article_plea_option1_crowdfunding_click",
+      "event.type": "article_plea_option2_crowdfunding_click",
     });
-    window.dataLayer.push({ event: "article_plea_option1_crowdfunding_click" });
+    window.dataLayer.push({ event: "article_plea_option2_crowdfunding_click" });
 
     window.open(
-      "https://r3.rappler.com/plus/payment?campaign=3&utm_source=rappler_plus&utm_medium=article_plea&utm_campaign=option1_crowdfunding"
+      "https://r3.rappler.com/plus/payment?campaign=3&utm_source=rappler_plus&utm_medium=article_plea&utm_campaign=option2_crowdfunding"
     );
   };
   return (
