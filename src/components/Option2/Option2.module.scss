@@ -9,8 +9,8 @@
   position: relative;
   .contentWrapper {
     width: 85%;
-    margin-right: 15px;
-    margin-left: auto;
+    margin: 0 15px 40px auto;
+
     .headerWrapper {
       display: flex;
       flex-direction: column;
@@ -40,13 +40,14 @@
       }
     }
   }
-  .logo {
-    width: 150px;
-    position: absolute;
-    right: 20px;
-    bottom: 60px;
-    img {
-      width: 100%;
+  .logoContainer {
+    display: flex;
+    .logo {
+      width: 150px;
+      margin: auto auto -20px;
+      img {
+        width: 100%;
+      }
     }
   }
   .buttonHanging {
@@ -118,8 +119,10 @@
         }
       }
     }
-    .logo {
-      bottom: 20px;
+    .logoContainer {
+      .logo {
+        margin-right: 0;
+      }
     }
     .buttonHanging {
       .btnPlus {
