@@ -29,7 +29,7 @@ const Option2 = () => {
       paragraph1="The battle is no longer just about access, but about who takes hold of the narrative. Despite the massive flow of information, we can no longer discuss issues and topics close to our hearts without fear of getting trolled, threatened, or attacked. Our minds have been co-opted by the attention economy, and our deepest vulnerabilities have been exploited for profit through disinformation and propaganda."
       paragraph2="In this climate and as we prepare for the May 2022 presidential election in the Philippines, we need stories that provide clarity, context and perspective. Stories that understand how power is used and abused. Stories that drive communities to action."
       paragraph3="Rappler is powered by its readers. It is independent and fearless because it’s supported and inspired by you."
-      btnLabel="Join Rappler+"
+      btnLabel="Join Now"
       btnSubLabel="for P3500 / $75 a year"
       donation="Join Rappler+ and push back on disinformation, propaganda, and lies or make a one off donation "
       rapplerPlusLink={handleLink}

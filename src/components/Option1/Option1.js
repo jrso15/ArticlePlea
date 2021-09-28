@@ -49,7 +49,7 @@ const Option1 = () => {
       rapplerPlusLink={handleLink}
       donationLink={handleDonationLink}
       rapplerPlusLogo={logo}
-      btnLabel="Join Rappler+"
+      btnLabel="Join Now"
       btnSubLabel="for P3500 / $75 a year"
       optionStyle={styles}
     />
