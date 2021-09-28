@@ -38,19 +38,21 @@ const ArticlePlea = ({
           <div className={optionStyle.donation}>
             <p>
               {donation}
-              <a href="" onClick = { () => donationLink() }>here</a>.
+              <a href="" onClick={() => donationLink()}>
+                here
+              </a>
+              .
             </p>
           </div>
         </div>
       </div>
 
-      <img src={rapplerPlusLogo} className={optionStyle.logo} />
+      <div className={optionStyle.logoContainer}>
+        <img src={rapplerPlusLogo} className={optionStyle.logo} />
+      </div>
 
       <div className={optionStyle.buttonHanging}>
-        <a
-          className={optionStyle.btnPlus}
-          onClick = { () => rapplerPlusLink() }
-        >
+        <a className={optionStyle.btnPlus} onClick={() => rapplerPlusLink()}>
           <p className={optionStyle.label}>{btnLabel}</p>
           <p className={optionStyle.subLabel}>{btnSubLabel}</p>
         </a>
