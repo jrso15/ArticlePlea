@@ -46,6 +46,7 @@ const Option1 = () => {
       believe that public good is best served when power is checked by those
       who speak truth to it."
       donation="Help us continue our work by joining Rappler+ or making a one off donation "
+      here="here"
       rapplerPlusLink={handleLink}
       donationLink={handleDonationLink}
       rapplerPlusLogo={logo}

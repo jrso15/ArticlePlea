@@ -12,6 +12,7 @@ const ArticlePlea = ({
   btnSubLabel,
   optionStyle,
   donation,
+  here,
   rapplerPlusLogo,
   donationLink,
   rapplerPlusLink,
@@ -39,7 +40,7 @@ const ArticlePlea = ({
             <p>
               {donation}
               <a href="" onClick={() => donationLink()}>
-                here
+                {here}
               </a>
               .
             </p>
