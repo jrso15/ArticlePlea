@@ -9,7 +9,7 @@
   position: relative;
   .contentWrapper {
     width: 85%;
-    margin: 0 15px 40px auto;
+    margin: 0 15px 45px auto;
 
     .headerWrapper {
       display: flex;
@@ -44,7 +44,7 @@
     display: flex;
     .logo {
       width: 150px;
-      margin: auto auto -20px;
+      margin: auto auto -5px;
       img {
         width: 100%;
       }
@@ -53,7 +53,7 @@
   .buttonHanging {
     cursor: pointer;
     position: absolute;
-    bottom: -80px;
+    bottom: -90px;
     left: 50%;
     text-align: center;
     transform: translate(-50%, -50%);
@@ -125,6 +125,7 @@
       }
     }
     .buttonHanging {
+      bottom: -70px;
       .btnPlus {
         padding: 10px 60px 15px;
       }
