@@ -29,7 +29,7 @@ const Option2 = () => {
     "<em> Without truth, you can’t have trust. Without trust, we have no shared reality. </em>";
 
   const italicText2 =
-    "<em> What does a world without a shared reality look like? Globally, It becomes impossible to deal with our existential problems. For communities, it means they can no longer engage in constructive discourse because dissenters are tagged as terrorists or criminals. For individuals, it means feeling more alone, anxious, disconnected, and disempowered. </em>";
+    "<em> What does a world without a shared reality look like? Globally, it becomes impossible to deal with our existential problems. For communities, it means they can no longer engage in constructive discourse because dissenters are tagged as terrorists or criminals. For individuals, it means feeling more alone, anxious, disconnected, and disempowered. </em>";
 
   const italicText3 =
     "<em>Our vision for Rappler+ is to create a place where we could keep talking to each other about the future we want to shape. A place where we could engage in conversation without the toxicity and vitriol on social media. An opportunity to deepen our relationship with our readers and supporters in a space where we could discuss today’s most pressing issues – together.</em>";
